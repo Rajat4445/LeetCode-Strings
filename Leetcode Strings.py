@@ -48,6 +48,9 @@ o = ''
                 o += 'o'
             elif command[i] == '(' and command[i+1] == 'a' and command[i+2] == 'l' and command[i+3] == ')':
                 o += 'al'
+                
+                
+        ## command.replace('()', 'o').replace('(al)', 'al')
 
 
 
